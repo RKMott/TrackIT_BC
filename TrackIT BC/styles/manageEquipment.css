@@ -1,0 +1,41 @@
+.addForm {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 30px;
+}
+
+.addForm input, .addForm textarea {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #888;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+.danger {
+    background-color: #e74c3c;
+    color: white;
+    padding: 6px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.danger:hover {
+    background-color: #c0392b;
+}
+
+
+.manageEquipment {
+	padding: 10px;
+}

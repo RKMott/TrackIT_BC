@@ -1,0 +1,50 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+input[type="text"] {
+    border-radius: 6px;
+    border: 1px solid #888;
+}
+
+button {
+    margin-left: 10px;
+    padding: 6px 12px;
+    border-radius: 6px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #3e8e41;
+}
+
+.status {
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.status.approved {
+    color: green;
+}
+
+.status.pending {
+    color: orange;
+}
+
+.status.declined {
+    color: red;
+}
+
+.rentalHistory {
+	padding: 10px;
+}

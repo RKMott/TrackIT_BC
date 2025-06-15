@@ -1,0 +1,32 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+th, td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+select, button {
+    padding: 6px;
+    margin-top: 4px;
+    border-radius: 6px;
+}
+
+.danger {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+}
+
+.danger:hover {
+    background-color: #c0392b;
+}
+
+.userAccounts {
+	padding: 10px;
+}

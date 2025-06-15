@@ -1,0 +1,85 @@
+.flex-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 20px;
+    gap: 20px;
+}
+
+.equipmentSection {
+    width: 65%;
+    padding: 20px;
+}
+
+.rentalList {
+    width: 30%;
+    padding: 20px;
+}
+
+.headerRow {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+#searchBar {
+    width: 70%;
+    padding: 8px;
+    border-radius: 8px;
+    border: 1px solid #888;
+}
+
+.goBackBtn {
+    padding: 8px 16px;
+    border-radius: 6px;
+    background-color: #bbb;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+#requestList {
+    list-style-type: none;
+    padding-left: 0;
+    margin-top: 15px;
+}
+
+#requestList li {
+    margin-bottom: 10px;
+}
+
+#submitRequestBtn {
+    margin-top: 20px;
+    width: 100%;
+    padding: 10px;
+    font-weight: bold;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
+
+.removeBtn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.removeBtn:hover {
+    background-color: #c0392b;
+}
+

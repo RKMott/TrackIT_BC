@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>TrackIT BC</title>
+		<link rel="stylesheet" href="styles/shared.css">
+		<link rel="stylesheet" href="styles/loginCreateAccount.css">
+	</head>
+
+	<body>
+		<nav>
+			<img class="logo" src="images/App Dev Logo.png" alt="TrackIT BC Logo">
+		</nav>
+		
+		<section class="mainContent">
+			<div class="boxGreen loginBox">
+				<button class="accountButtons" id="signIn">Sign In</button>
+				<button class="accountButtons" id="createAccount">Create Account</button>
+				
+				<form class="signInForm" id="authForm" action="php/auth.php" method="POST">
+					<label for="email">Email</label> <br>
+					<input type="email" name="email" id="email" required> <br>
+					
+					<label for="">Password</label> <br>
+					<input type="password" name="password" id="password" required> <br>
+					
+					<div id="extraFields"></div>
+					
+					<input type="hidden" name="role" value="student">
+					
+					<input type="hidden" name="mode" id="formMode" value="login">
+					
+					<button class="submit" type="submit">Log In</button>
+				</form>
+			</div>
+		</section>
+		
+		<script src="js/loginCreateAccount.js"></script>
+	</body>
+</html>
